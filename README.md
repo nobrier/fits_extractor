@@ -138,6 +138,21 @@ else:
 - `ipyaladin`
 - `shapely`
 
+## Possible Upgrades
+
+1. **Handle edge cases for specific FITS files**: 
+   - 6 files in the dataset currently throw errors. Investigate the reasons and implement exception handling or special case logic.
+
+2. **Improve object identification for large structures**:
+   - The current method is suboptimal for large-scale objects like VIRGO, as it identifies only a single object. Consider developing a hierarchical or multi-object identification approach.
+
+3. **Enhance name verification**:
+   - The SESAME service frequently fails for certain objects. Explore alternative APIs or databases to improve name verification.
+
+4. **Increase function robustness**:
+   - Some functions have limited flexibility and fail with non-standard FITS files. Add more validation and error handling to improve usability.
+
+
 ## Author
 
 Nicolas Obrier
