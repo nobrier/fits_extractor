@@ -1,0 +1,8 @@
+astropy
+matplotlib
+mocpy
+ipyaladin
+astroquery
+numpy
+requests
+shapely
